@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "userId": "USR-101",
+      "role": "Supplier",
+      "fullName": "Georgia Alfaro",
+      "email": "georgia.alfaro@supplier.com",
+      "phone": "1234567890",
+      "company": "Excel Machinery Pvt. Ltd.",
+      "capabilities": ["CNC", "Lathe", "5-Axis Milling", "Laser Cutting"],
+      "avatar": "assets/images/user_avatar.png"
+    },
+    {
+      "userId": "USR-102",
+      "role": "Business Workshop",
+      "fullName": "Rajesh Sharma",
+      "email": "rajesh@apexengg.com",
+      "phone": "9876543210",
+      "company": "Apex Engineering Works",
+      "capabilities": ["CNC", "Lathe", "Fabrication"],
+      "avatar": "assets/images/user_avatar.png"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "supplierAnnouncements": [
+    {
+      "id": "ANN-SUP-01",
+      "authorRole": "Supplier",
+      "authorName": "Excel Machinery Pvt. Ltd.",
+      "category": "Machine Capacity Available",
+      "title": "CNC Lathe Slot Open for Next Week",
+      "message": "We have open capacity for 5-axis CNC lathe jobs starting this Monday. Quick turnaround guaranteed for batch orders.",
+      "time": "Today, 10:30 AM"
+    },
+    {
+      "id": "ANN-SUP-02",
+      "authorRole": "Supplier",
+      "authorName": "Excel Machinery Pvt. Ltd.",
+      "category": "Material Stock Update",
+      "title": "Fresh Mild Steel EN8 Stock Received",
+      "message": "500 kg of EN-D-20 round bars in stock. Immediate processing available for verified business work orders.",
+      "time": "Yesterday, 4:15 PM"
+    }
+  ],
+  "businessAnnouncements": [
+    {
+      "id": "ANN-BUS-01",
+      "authorRole": "Business Workshop",
+      "authorName": "Apex Engineering Works",
+      "category": "Lathe & Turning Job Work",
+      "title": "Urgent: Lathe Turning for 500 Units",
+      "specs": "Mild Steel EN8 • ±0.05 mm • 500 pcs",
+      "message": "Looking for verified suppliers with open lathe capacity this week. Immediate material issue available upon confirmation.",
+      "time": "Today, 11:20 AM"
+    },
+    {
+      "id": "ANN-BUS-02",
+      "authorRole": "Business Workshop",
+      "authorName": "Apex Engineering Works",
+      "category": "Fiber Laser & Sheet Cutting",
+      "title": "High-Precision 6kW Laser Cutting",
+      "specs": "SS 304 • 12mm plate • 250 units",
+      "message": "Need clean dross-free laser cutting for stainless steel sheets. Material issued to supplier unit directly.",
+      "time": "Yesterday, 3:45 PM"
+    }
+  ]
+}

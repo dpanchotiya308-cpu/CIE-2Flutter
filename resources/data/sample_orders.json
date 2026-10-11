@@ -1,0 +1,80 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD-001",
+      "displayTitle": "Order #1",
+      "status": "In Progress",
+      "statusCode": "CUTTING_IN_PROGRESS",
+      "orderDate": "18 Feb 2026",
+      "client": {
+        "company": "Tech Corp Inc.",
+        "contactPerson": "Alexander Wright",
+        "email": "procurement@techcorp.com",
+        "phone": "+91 98250 12345"
+      },
+      "specifications": {
+        "materialGrade": "Mild Steel (EN8)",
+        "tolerances": "±0.05 mm",
+        "heatTreatment": "Required (Quenched & Tempered)",
+        "dimensions": "Ø45 mm x 180 mm",
+        "quantity": 500,
+        "unitPriceINR": 480.0,
+        "totalAmountINR": 240000.0
+      },
+      "fourStageSync": [
+        {
+          "stage": 1,
+          "name": "Material Dispatched",
+          "actor": "Supplier",
+          "timestamp": "18 Feb, 10:00 AM",
+          "isCompleted": true
+        },
+        {
+          "stage": 2,
+          "name": "Material Received (PoD)",
+          "actor": "Business Workshop",
+          "timestamp": "18 Feb, 02:30 PM",
+          "isCompleted": true,
+          "podReference": "POD-98421"
+        },
+        {
+          "stage": 3,
+          "name": "Cutting In Progress",
+          "actor": "Active Workshop Stage",
+          "timestamp": "19 Feb, 09:00 AM",
+          "isCompleted": true,
+          "isCurrent": true
+        },
+        {
+          "stage": 4,
+          "name": "Ready for Quality Assembly",
+          "actor": "Quality Inspector",
+          "timestamp": "Pending",
+          "isCompleted": false
+        }
+      ]
+    },
+    {
+      "orderId": "ORD-002",
+      "displayTitle": "Order #2",
+      "status": "Pending Confirmation",
+      "statusCode": "PENDING_CONFIRMATION",
+      "orderDate": "20 Feb 2026",
+      "client": {
+        "company": "Apex Precision Components",
+        "contactPerson": "Rajesh Sharma",
+        "email": "apex@precision.in",
+        "phone": "+91 98765 43210"
+      },
+      "specifications": {
+        "materialGrade": "Stainless Steel 304",
+        "tolerances": "±0.02 mm",
+        "heatTreatment": "Annealed",
+        "dimensions": "3000 x 1500 x 6 mm plate",
+        "quantity": 250,
+        "unitPriceINR": 1150.0,
+        "totalAmountINR": 287500.0
+      }
+    }
+  ]
+}

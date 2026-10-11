@@ -1,0 +1,18 @@
+{
+  "ledgerEntries": [
+    {
+      "ledgerId": "YLD-2026-081",
+      "orderReference": "ORD-001",
+      "materialType": "Mild Steel Round Bar EN8",
+      "totalRawMaterialIssuedKg": 250.00,
+      "usableOffcutWeightKg": 15.50,
+      "scrapMetalShavingsKg": 8.20,
+      "finishedUnitsKg": 226.30,
+      "reconciliationMatchPercentage": 100.0,
+      "formula": "Finished Units (226.30 kg) = Total Raw (250.00 kg) - Usable Offcut (15.50 kg) - Scrap (8.20 kg)",
+      "isReconciled": true,
+      "timestamp": "19 Feb 2026, 05:45 PM",
+      "loggedBy": "Excel Machinery Pvt. Ltd."
+    }
+  ]
+}
